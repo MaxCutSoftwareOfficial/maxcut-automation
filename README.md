@@ -9,7 +9,14 @@ A powerful and easy-to-use cutlist optimizer for cabinetry and woodworking profe
 
 ## Automation Guide
 
+[Download](https://maxcutsoftware.com) and install MaxCut (free)
+
 This repo provides examples of how to integrate MaxCut with your workflow using the command line.
 
-1. [Download](https://maxcutsoftware.com) and install MaxCut (free)
-2. 
+### Importing data via the Command Line
+
+#### Importing KDMax Data File
+
+#### Importing CSV Data File
+
+#### Importing CabMaster Data File
