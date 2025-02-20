@@ -5,7 +5,7 @@ A powerful and easy-to-use cutlist optimizer for cabinetry and woodworking profe
 - Generate accurate quotations effortlessly
 - Automate workflows with CLI integration
 
-📢 Try MaxCut for free → https://maxcutsoftware.com
+📢 Try MaxCut for free → [https://maxcutsoftware.com](https://maxcutsoftware.com)
 
 ## Automation Guide
 
