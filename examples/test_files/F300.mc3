@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MaxCut Version="2.9.4.3">
+  <JobDetails>
+    <ClientName></ClientName>
+    <ClientFax></ClientFax>
+    <ClientCell></ClientCell>
+    <ClientEmail></ClientEmail>
+    <ClientAddress></ClientAddress>
+    <JobDateRequired>2025-02-21T00:00:00+02:00</JobDateRequired>
+    <JobNotes></JobNotes>
+    <JobReference></JobReference>
+    <JobCode></JobCode>
+    <QuoteNumber></QuoteNumber>
+    <InvoiceNumber></InvoiceNumber>
+    <DeliveryAddress1></DeliveryAddress1>
+    <DeliveryAddress2></DeliveryAddress2>
+    <DeliveryAreaName></DeliveryAreaName>
+    <DeliveryAreaCode></DeliveryAreaCode>
+    <DeliveryProvince></DeliveryProvince>
+    <DeliveryCountry></DeliveryCountry>
+    <DeliveryGPSCoord></DeliveryGPSCoord>
+    <DeliveryCharge>0</DeliveryCharge>
+    <ClientPhone></ClientPhone>
+    <ClientVatNumber></ClientVatNumber>
+    <SelectedCustomerUid></SelectedCustomerUid>
+    <IsOptimizationDirty>true</IsOptimizationDirty>
+    <Seed>1702789603</Seed>
+    <Id>d6cfa0ba-d97e-4a6a-a60b-0bf48280048d</Id>
+    <BinPackingResultIndex>0</BinPackingResultIndex>
+    <SelectedTab>Input Items</SelectedTab>
+  </JobDetails>
+  <InputItems>
+    <InputItem Type="Input Group">
+      <InputItemGroup JobItemType="Group">
+        <UID>8ccc4547-bcb9-4eaa-9372-7b1beadd46eb</UID>
+        <Name>F300</Name>
+        <Notes></Notes>
+        <Quantity>1</Quantity>
+        <UseForDescendantGroupName>false</UseForDescendantGroupName>
+        <ImportCode></ImportCode>
+        <Level>Parent</Level>
+      </InputItemGroup>
+      <ChildItems>
+        <InputItem Type="Input Panel">
+          <OptimizationInputPiece JobItemType="Panel">
+            <UID>3ced970a-354c-4381-8c5d-f2ca13376c1f</UID>
+            <Name>Door Panel - Standard Edging</Name>
+            <Width>296</Width>
+            <Height>716</Height>
+            <CanRotate>0</CanRotate>
+            <Dimensions>716 mm x 296 mm</Dimensions>
+            <Quantity>1</Quantity>
+            <EdgeLength1MaterialUID>2bf0f04f-7348-4eb3-9227-48157f2b9c96</EdgeLength1MaterialUID>
+            <EdgeLength2MaterialUID>2bf0f04f-7348-4eb3-9227-48157f2b9c96</EdgeLength2MaterialUID>
+            <EdgeWidth1MaterialUID>2bf0f04f-7348-4eb3-9227-48157f2b9c96</EdgeWidth1MaterialUID>
+            <EdgeWidth2MaterialUID>2bf0f04f-7348-4eb3-9227-48157f2b9c96</EdgeWidth2MaterialUID>
+            <LastSavedEdgingLength1MaterialName>Grain Example Edging</LastSavedEdgingLength1MaterialName>
+            <LastSavedEdgingLength2MaterialName>Grain Example Edging</LastSavedEdgingLength2MaterialName>
+            <LastSavedEdgingWidth1MaterialName>Grain Example Edging</LastSavedEdgingWidth1MaterialName>
+            <LastSavedEdgingWidth2MaterialName>Grain Example Edging</LastSavedEdgingWidth2MaterialName>
+            <Notes></Notes>
+            <MaterialUID>4951dab7-db06-4e6d-a745-3d95e4ba02d5</MaterialUID>
+            <LastSavedMaterialName>Grain Example Board</LastSavedMaterialName>
+            <Note1></Note1>
+            <Note2></Note2>
+            <Note3></Note3>
+            <Note4></Note4>
+            <Group></Group>
+            <ReportTags>Door</ReportTags>
+            <Level>Child</Level>
+            <IncludeEdgingThickness>false</IncludeEdgingThickness>
+            <HolesWidth1></HolesWidth1>
+            <HolesWidth2></HolesWidth2>
+            <HolesLength1></HolesLength1>
+            <HolesLength2></HolesLength2>
+            <GroovingWidth1></GroovingWidth1>
+            <GroovingWidth2></GroovingWidth2>
+            <GroovingLength1></GroovingLength1>
+            <GroovingLength2></GroovingLength2>
+            <MaterialTag>Door - Melamine - Materials</MaterialTag>
+            <EdgingLength1Tag>Door - Melamine - Edging - Squareline</EdgingLength1Tag>
+            <EdgingLength2Tag>Door - Melamine - Edging - Squareline</EdgingLength2Tag>
+            <EdgingWidth1Tag>Door - Melamine - Edging - Squareline</EdgingWidth1Tag>
+            <EdgingWidth2Tag>Door - Melamine - Edging - Squareline</EdgingWidth2Tag>
+            <LongExpansion>0</LongExpansion>
+            <ShortExpansion>0</ShortExpansion>
+          </OptimizationInputPiece>
+        </InputItem>
+        <InputItem Type="Input Hardware">
+          <OptimizationInputPiece JobItemType="Hardware">
+            <UID>46c70b3e-6a4c-4142-9c04-17832324738c</UID>
+            <Name>8x16 Screw</Name>
+            <Dimensions>-</Dimensions>
+            <Quantity>16</Quantity>
+            <Notes></Notes>
+            <MaterialUID>b26d2ba5-e80e-45b7-bde0-62257f786b2e</MaterialUID>
+            <LastSavedMaterialName>Screw Example 8x16</LastSavedMaterialName>
+            <Note1></Note1>
+            <Note2></Note2>
+            <Note3></Note3>
+            <Note4></Note4>
+            <Group></Group>
+            <Level>Child</Level>
+            <ReportTags>Hardware , Carcase</ReportTags>
+            <MaterialTag></MaterialTag>
+          </OptimizationInputPiece>
+        </InputItem>
+        <InputItem Type="Input Hardware">
+          <OptimizationInputPiece JobItemType="Hardware">
+            <UID>8238fa09-5006-4d0e-80a9-51bb94fb3626</UID>
+            <Name>Leg</Name>
+            <Dimensions>-</Dimensions>
+            <Quantity>4</Quantity>
+            <Notes></Notes>
+            <MaterialUID>d158458a-7896-44b8-a698-ddaba6fe9ea6</MaterialUID>
+            <LastSavedMaterialName>Leg Example Item</LastSavedMaterialName>
+            <Note1></Note1>
+            <Note2></Note2>
+            <Note3></Note3>
+            <Note4></Note4>
+            <Group></Group>
+            <Level>Child</Level>
+            <ReportTags>Hardware , Carcase</ReportTags>
+            <MaterialTag>Hardware - Legs</MaterialTag>
+          </OptimizationInputPiece>
+        </InputItem>
+        <InputItem Type="Input Hardware">
+          <OptimizationInputPiece JobItemType="Hardware">
+            <UID>c130a9e9-8449-491a-9600-9f36b96eec45</UID>
+            <Name>Screws 8x30</Name>
+            <Dimensions>-</Dimensions>
+            <Quantity>4</Quantity>
+            <Notes></Notes>
+            <MaterialUID>831a3f73-2b8f-4121-ae07-06145577d1e7</MaterialUID>
+            <LastSavedMaterialName>Screw Example 8x30</LastSavedMaterialName>
+            <Note1></Note1>
+            <Note2></Note2>
+            <Note3></Note3>
+            <Note4></Note4>
+            <Group></Group>
+            <Level>Child</Level>
+            <ReportTags>Carcase , Hardware</ReportTags>
+            <MaterialTag></MaterialTag>
+          </OptimizationInputPiece>
+        </InputItem>
+        <InputItem Type="Input Hardware">
+          <OptimizationInputPiece JobItemType="Hardware">
+            <UID>bd88e5b2-456a-417f-9cfd-da557b5c831e</UID>
+            <Name>Screws 8x40</Name>
+            <Dimensions>-</Dimensions>
+            <Quantity>8</Quantity>
+            <Notes></Notes>
+            <MaterialUID>3221fecb-2083-4465-a9e7-9e2da48ddb10</MaterialUID>
+            <LastSavedMaterialName>Screw Example 8x40</LastSavedMaterialName>
+            <Note1></Note1>
+            <Note2></Note2>
+            <Note3></Note3>
+            <Note4></Note4>
+            <Group></Group>
+            <Level>Child</Level>
+            <ReportTags>Carcase , Hardware</ReportTags>
+            <MaterialTag></MaterialTag>
+          </OptimizationInputPiece>
+        </InputItem>
+        <InputItem Type="Input Hardware">
+          <OptimizationInputPiece JobItemType="Hardware">
+            <UID>614a1248-6a2b-4846-b10d-2af78d06af3f</UID>
+            <Name>Shelf Stud</Name>
+            <Dimensions>-</Dimensions>
+            <Quantity>4</Quantity>
+            <Notes></Notes>
+            <MaterialUID>76976199-63f6-47b9-b76b-256e1d9d1491</MaterialUID>
+            <LastSavedMaterialName>Shelf Stud Example Item</LastSavedMaterialName>
+            <Note1></Note1>
+            <Note2></Note2>
+            <Note3></Note3>
+            <Note4></Note4>
+            <Group></Group>
+            <Level>Child</Level>
+            <ReportTags>Hardware , Internals , Supports</ReportTags>
+            <MaterialTag></MaterialTag>
+          </OptimizationInputPiece>
+        </InputItem>
+        <InputItem Type="Input Hardware">
+          <OptimizationInputPiece JobItemType="Hardware">
+            <UID>6daeb9da-dedf-447b-8229-15a11c741fa5</UID>
+            <Name>Wall Anchor</Name>
+            <Dimensions>-</Dimensions>
+            <Quantity>2</Quantity>
+            <Notes></Notes>
+            <MaterialUID>1f05f796-34cc-4783-8b5f-1ccca3d580a6</MaterialUID>
+            <LastSavedMaterialName>Wall Anchor Example Item</LastSavedMaterialName>
+            <Note1></Note1>
+            <Note2></Note2>
+            <Note3></Note3>
+            <Note4></Note4>
+            <Group></Group>
+            <Level>Child</Level>
+            <ReportTags>Carcase , Hardware</ReportTags>
+            <MaterialTag></MaterialTag>
+          </OptimizationInputPiece>
+        </InputItem>
+        <InputItem Type="Input Panel">
+          <OptimizationInputPiece JobItemType="Panel">
+            <UID>8815c9b9-d7ff-471d-a2e5-552fbec0694d</UID>
+            <Name>Back</Name>
+            <Width>268</Width>
+            <Height>703</Height>
+            <CanRotate>2</CanRotate>
+            <Dimensions>703 mm x 268 mm</Dimensions>
+            <Quantity>1</Quantity>
+            <EdgeLength1MaterialUID></EdgeLength1MaterialUID>
+            <EdgeLength2MaterialUID></EdgeLength2MaterialUID>
+            <EdgeWidth1MaterialUID></EdgeWidth1MaterialUID>
+            <EdgeWidth2MaterialUID></EdgeWidth2MaterialUID>
+            <LastSavedEdgingLength1MaterialName></LastSavedEdgingLength1MaterialName>
+            <LastSavedEdgingLength2MaterialName></LastSavedEdgingLength2MaterialName>
+            <LastSavedEdgingWidth1MaterialName></LastSavedEdgingWidth1MaterialName>
+            <LastSavedEdgingWidth2MaterialName></LastSavedEdgingWidth2MaterialName>
+            <Notes></Notes>
+            <MaterialUID>4ea355db-5c85-4222-8a6d-0dbe42775975</MaterialUID>
+            <LastSavedMaterialName>White Example Board</LastSavedMaterialName>
+            <Note1></Note1>
+            <Note2></Note2>
+            <Note3></Note3>
+            <Note4></Note4>
+            <Group></Group>
+            <ReportTags>Carcase , Board</ReportTags>
+            <Level>Child</Level>
+            <IncludeEdgingThickness>false</IncludeEdgingThickness>
+            <HolesWidth1></HolesWidth1>
+            <HolesWidth2></HolesWidth2>
+            <HolesLength1></HolesLength1>
+            <HolesLength2></HolesLength2>
+            <GroovingWidth1></GroovingWidth1>
+            <GroovingWidth2></GroovingWidth2>
+            <GroovingLength1></GroovingLength1>
+            <GroovingLength2></GroovingLength2>
+            <MaterialTag>Carcase Material - Backing</MaterialTag>
+            <EdgingLength1Tag></EdgingLength1Tag>
+            <EdgingLength2Tag></EdgingLength2Tag>
+            <EdgingWidth1Tag></EdgingWidth1Tag>
+            <EdgingWidth2Tag></EdgingWidth2Tag>
+            <LongExpansion>0</LongExpansion>
+            <ShortExpansion>0</ShortExpansion>
+          </OptimizationInputPiece>
+        </InputItem>
+        <InputItem Type="Input Panel">
+          <OptimizationInputPiece JobItemType="Panel">
+            <UID>0368139b-6930-41d4-96c5-8e4749d32d2a</UID>
+            <Name>Base</Name>
+            <Width>558</Width>
+            <Height>268</Height>
+            <CanRotate>2</CanRotate>
+            <Dimensions>268 mm x 558 mm</Dimensions>
+            <Quantity>1</Quantity>
+            <EdgeLength1MaterialUID>2bf0f04f-7348-4eb3-9227-48157f2b9c96</EdgeLength1MaterialUID>
+            <EdgeLength2MaterialUID></EdgeLength2MaterialUID>
+            <EdgeWidth1MaterialUID></EdgeWidth1MaterialUID>
+            <EdgeWidth2MaterialUID></EdgeWidth2MaterialUID>
+            <LastSavedEdgingLength1MaterialName>Grain Example Edging</LastSavedEdgingLength1MaterialName>
+            <LastSavedEdgingLength2MaterialName></LastSavedEdgingLength2MaterialName>
+            <LastSavedEdgingWidth1MaterialName></LastSavedEdgingWidth1MaterialName>
+            <LastSavedEdgingWidth2MaterialName></LastSavedEdgingWidth2MaterialName>
+            <Notes></Notes>
+            <MaterialUID>4ea355db-5c85-4222-8a6d-0dbe42775975</MaterialUID>
+            <LastSavedMaterialName>White Example Board</LastSavedMaterialName>
+            <Note1></Note1>
+            <Note2></Note2>
+            <Note3></Note3>
+            <Note4></Note4>
+            <Group></Group>
+            <ReportTags>Carcase , Board</ReportTags>
+            <Level>Child</Level>
+            <IncludeEdgingThickness>false</IncludeEdgingThickness>
+            <HolesWidth1></HolesWidth1>
+            <HolesWidth2></HolesWidth2>
+            <HolesLength1></HolesLength1>
+            <HolesLength2></HolesLength2>
+            <GroovingWidth1></GroovingWidth1>
+            <GroovingWidth2></GroovingWidth2>
+            <GroovingLength1></GroovingLength1>
+            <GroovingLength2></GroovingLength2>
+            <MaterialTag>Carcase Material - Concealed</MaterialTag>
+            <EdgingLength1Tag>Edging Material - Exposed</EdgingLength1Tag>
+            <EdgingLength2Tag>Edging Material - Exposed</EdgingLength2Tag>
+            <EdgingWidth1Tag>Edging Material - Exposed</EdgingWidth1Tag>
+            <EdgingWidth2Tag>Edging Material - Exposed</EdgingWidth2Tag>
+            <LongExpansion>0</LongExpansion>
+            <ShortExpansion>0</ShortExpansion>
+          </OptimizationInputPiece>
+        </InputItem>
+        <InputItem Type="Input Panel">
+          <OptimizationInputPiece JobItemType="Panel">
+            <UID>d98088ba-7c33-4f58-ae3b-2b0f95e90925</UID>
+            <Name>Recessed Shelf</Name>
+            <Width>528</Width>
+            <Height>268</Height>
+            <CanRotate>2</CanRotate>
+            <Dimensions>268 mm x 528 mm</Dimensions>
+            <Quantity>1</Quantity>
+            <EdgeLength1MaterialUID>d2f9c60a-ca15-449a-94c8-25b037e6dd1b</EdgeLength1MaterialUID>
+            <EdgeLength2MaterialUID></EdgeLength2MaterialUID>
+            <EdgeWidth1MaterialUID></EdgeWidth1MaterialUID>
+            <EdgeWidth2MaterialUID></EdgeWidth2MaterialUID>
+            <LastSavedEdgingLength1MaterialName>White Example Edging</LastSavedEdgingLength1MaterialName>
+            <LastSavedEdgingLength2MaterialName></LastSavedEdgingLength2MaterialName>
+            <LastSavedEdgingWidth1MaterialName></LastSavedEdgingWidth1MaterialName>
+            <LastSavedEdgingWidth2MaterialName></LastSavedEdgingWidth2MaterialName>
+            <Notes></Notes>
+            <MaterialUID>4ea355db-5c85-4222-8a6d-0dbe42775975</MaterialUID>
+            <LastSavedMaterialName>White Example Board</LastSavedMaterialName>
+            <Note1></Note1>
+            <Note2></Note2>
+            <Note3></Note3>
+            <Note4></Note4>
+            <Group></Group>
+            <ReportTags>Board , Internal</ReportTags>
+            <Level>Child</Level>
+            <IncludeEdgingThickness>false</IncludeEdgingThickness>
+            <HolesWidth1></HolesWidth1>
+            <HolesWidth2></HolesWidth2>
+            <HolesLength1></HolesLength1>
+            <HolesLength2></HolesLength2>
+            <GroovingWidth1></GroovingWidth1>
+            <GroovingWidth2></GroovingWidth2>
+            <GroovingLength1></GroovingLength1>
+            <GroovingLength2></GroovingLength2>
+            <MaterialTag>Carcase Material - Concealed</MaterialTag>
+            <EdgingLength1Tag>Edging Material - Concealed</EdgingLength1Tag>
+            <EdgingLength2Tag>Edging Material - Concealed</EdgingLength2Tag>
+            <EdgingWidth1Tag>Edging Material - Concealed</EdgingWidth1Tag>
+            <EdgingWidth2Tag>Edging Material - Concealed</EdgingWidth2Tag>
+            <LongExpansion>0</LongExpansion>
+            <ShortExpansion>0</ShortExpansion>
+          </OptimizationInputPiece>
+        </InputItem>
+        <InputItem Type="Input Panel">
+          <OptimizationInputPiece JobItemType="Panel">
+            <UID>d51f54ee-d17a-42b7-8db4-373c4282fa3a</UID>
+            <Name>Side-Left</Name>
+            <Width>558</Width>
+            <Height>720</Height>
+            <CanRotate>2</CanRotate>
+            <Dimensions>720 mm x 558 mm</Dimensions>
+            <Quantity>1</Quantity>
+            <EdgeLength1MaterialUID>2bf0f04f-7348-4eb3-9227-48157f2b9c96</EdgeLength1MaterialUID>
+            <EdgeLength2MaterialUID></EdgeLength2MaterialUID>
+            <EdgeWidth1MaterialUID></EdgeWidth1MaterialUID>
+            <EdgeWidth2MaterialUID></EdgeWidth2MaterialUID>
+            <LastSavedEdgingLength1MaterialName>Grain Example Edging</LastSavedEdgingLength1MaterialName>
+            <LastSavedEdgingLength2MaterialName></LastSavedEdgingLength2MaterialName>
+            <LastSavedEdgingWidth1MaterialName></LastSavedEdgingWidth1MaterialName>
+            <LastSavedEdgingWidth2MaterialName></LastSavedEdgingWidth2MaterialName>
+            <Notes></Notes>
+            <MaterialUID>4ea355db-5c85-4222-8a6d-0dbe42775975</MaterialUID>
+            <LastSavedMaterialName>White Example Board</LastSavedMaterialName>
+            <Note1></Note1>
+            <Note2></Note2>
+            <Note3></Note3>
+            <Note4></Note4>
+            <Group></Group>
+            <ReportTags>Carcase , Board</ReportTags>
+            <Level>Child</Level>
+            <IncludeEdgingThickness>false</IncludeEdgingThickness>
+            <HolesWidth1></HolesWidth1>
+            <HolesWidth2></HolesWidth2>
+            <HolesLength1></HolesLength1>
+            <HolesLength2></HolesLength2>
+            <GroovingWidth1></GroovingWidth1>
+            <GroovingWidth2></GroovingWidth2>
+            <GroovingLength1></GroovingLength1>
+            <GroovingLength2></GroovingLength2>
+            <MaterialTag>Carcase Material - Concealed</MaterialTag>
+            <EdgingLength1Tag>Edging Material - Exposed</EdgingLength1Tag>
+            <EdgingLength2Tag>Edging Material - Exposed</EdgingLength2Tag>
+            <EdgingWidth1Tag>Edging Material - Exposed</EdgingWidth1Tag>
+            <EdgingWidth2Tag>Edging Material - Exposed</EdgingWidth2Tag>
+            <LongExpansion>0</LongExpansion>
+            <ShortExpansion>0</ShortExpansion>
+          </OptimizationInputPiece>
+        </InputItem>
+        <InputItem Type="Input Panel">
+          <OptimizationInputPiece JobItemType="Panel">
+            <UID>7c6e4332-14b0-435f-91af-c66ef80bb795</UID>
+            <Name>Side-Right</Name>
+            <Width>558</Width>
+            <Height>720</Height>
+            <CanRotate>2</CanRotate>
+            <Dimensions>720 mm x 558 mm</Dimensions>
+            <Quantity>1</Quantity>
+            <EdgeLength1MaterialUID>2bf0f04f-7348-4eb3-9227-48157f2b9c96</EdgeLength1MaterialUID>
+            <EdgeLength2MaterialUID></EdgeLength2MaterialUID>
+            <EdgeWidth1MaterialUID></EdgeWidth1MaterialUID>
+            <EdgeWidth2MaterialUID></EdgeWidth2MaterialUID>
+            <LastSavedEdgingLength1MaterialName>Grain Example Edging</LastSavedEdgingLength1MaterialName>
+            <LastSavedEdgingLength2MaterialName></LastSavedEdgingLength2MaterialName>
+            <LastSavedEdgingWidth1MaterialName></LastSavedEdgingWidth1MaterialName>
+            <LastSavedEdgingWidth2MaterialName></LastSavedEdgingWidth2MaterialName>
+            <Notes></Notes>
+            <MaterialUID>4ea355db-5c85-4222-8a6d-0dbe42775975</MaterialUID>
+            <LastSavedMaterialName>White Example Board</LastSavedMaterialName>
+            <Note1></Note1>
+            <Note2></Note2>
+            <Note3></Note3>
+            <Note4></Note4>
+            <Group></Group>
+            <ReportTags>Carcase , Board</ReportTags>
+            <Level>Child</Level>
+            <IncludeEdgingThickness>false</IncludeEdgingThickness>
+            <HolesWidth1></HolesWidth1>
+            <HolesWidth2></HolesWidth2>
+            <HolesLength1></HolesLength1>
+            <HolesLength2></HolesLength2>
+            <GroovingWidth1></GroovingWidth1>
+            <GroovingWidth2></GroovingWidth2>
+            <GroovingLength1></GroovingLength1>
+            <GroovingLength2></GroovingLength2>
+            <MaterialTag>Carcase Material - Concealed</MaterialTag>
+            <EdgingLength1Tag>Edging Material - Exposed</EdgingLength1Tag>
+            <EdgingLength2Tag>Edging Material - Exposed</EdgingLength2Tag>
+            <EdgingWidth1Tag>Edging Material - Exposed</EdgingWidth1Tag>
+            <EdgingWidth2Tag>Edging Material - Exposed</EdgingWidth2Tag>
+            <LongExpansion>0</LongExpansion>
+            <ShortExpansion>0</ShortExpansion>
+          </OptimizationInputPiece>
+        </InputItem>
+        <InputItem Type="Input Panel">
+          <OptimizationInputPiece JobItemType="Panel">
+            <UID>8a1e3675-b982-4a6c-82b2-d766346ec75c</UID>
+            <Name>Top Shelf</Name>
+            <Width>558</Width>
+            <Height>268</Height>
+            <CanRotate>2</CanRotate>
+            <Dimensions>268 mm x 558 mm</Dimensions>
+            <Quantity>1</Quantity>
+            <EdgeLength1MaterialUID>2bf0f04f-7348-4eb3-9227-48157f2b9c96</EdgeLength1MaterialUID>
+            <EdgeLength2MaterialUID></EdgeLength2MaterialUID>
+            <EdgeWidth1MaterialUID></EdgeWidth1MaterialUID>
+            <EdgeWidth2MaterialUID></EdgeWidth2MaterialUID>
+            <LastSavedEdgingLength1MaterialName>Grain Example Edging</LastSavedEdgingLength1MaterialName>
+            <LastSavedEdgingLength2MaterialName></LastSavedEdgingLength2MaterialName>
+            <LastSavedEdgingWidth1MaterialName></LastSavedEdgingWidth1MaterialName>
+            <LastSavedEdgingWidth2MaterialName></LastSavedEdgingWidth2MaterialName>
+            <Notes></Notes>
+            <MaterialUID>4ea355db-5c85-4222-8a6d-0dbe42775975</MaterialUID>
+            <LastSavedMaterialName>White Example Board</LastSavedMaterialName>
+            <Note1></Note1>
+            <Note2></Note2>
+            <Note3></Note3>
+            <Note4></Note4>
+            <Group></Group>
+            <ReportTags>Carcase , Board</ReportTags>
+            <Level>Child</Level>
+            <IncludeEdgingThickness>false</IncludeEdgingThickness>
+            <HolesWidth1></HolesWidth1>
+            <HolesWidth2></HolesWidth2>
+            <HolesLength1></HolesLength1>
+            <HolesLength2></HolesLength2>
+            <GroovingWidth1></GroovingWidth1>
+            <GroovingWidth2></GroovingWidth2>
+            <GroovingLength1></GroovingLength1>
+            <GroovingLength2></GroovingLength2>
+            <MaterialTag>Carcase Material - Concealed</MaterialTag>
+            <EdgingLength1Tag>Edging Material - Exposed</EdgingLength1Tag>
+            <EdgingLength2Tag>Edging Material - Exposed</EdgingLength2Tag>
+            <EdgingWidth1Tag>Edging Material - Exposed</EdgingWidth1Tag>
+            <EdgingWidth2Tag>Edging Material - Exposed</EdgingWidth2Tag>
+            <LongExpansion>0</LongExpansion>
+            <ShortExpansion>0</ShortExpansion>
+          </OptimizationInputPiece>
+        </InputItem>
+      </ChildItems>
+    </InputItem>
+  </InputItems>
+</MaxCut>

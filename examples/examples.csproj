@@ -8,10 +8,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <None Update="kdmax.csv">
+      <None Update="test_files\kdmax.csv">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
-      <None Update="cabmaster.csv">
+      <None Update="test_files\cabmaster.csv">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="test_files\F300.mc3">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>

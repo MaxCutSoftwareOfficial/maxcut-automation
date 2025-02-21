@@ -9,8 +9,12 @@ var entryAssemblyDirectory = AppContext.BaseDirectory;
 
 // Example of importing a KDMax file via the MaxCut command line interface.
 // var importKdMaxCommand = new ImportKdMaxCommand();
-// importKdMaxCommand.Run($"{entryAssemblyDirectory}\\kdmax.csv");
+// importKdMaxCommand.Run($"{entryAssemblyDirectory}\\test_files\\kdmax.csv");
 
 // Example of importing a Cab Master file via the MaxCut command line interface.
-var importCabMasterCommand = new ImportCabMasterCommand();
-importCabMasterCommand.Run($"{entryAssemblyDirectory}\\cabmaster.csv");
+// var importCabMasterCommand = new ImportCabMasterCommand();
+// importCabMasterCommand.Run($"{entryAssemblyDirectory}\\test_files\\cabmaster.csv");
+
+// Example of opening a MaxCut job file (.mc3) via the MaxCut command line interface.
+var openMaxCutJobCommand = new OpenMaxCutJobCommand();
+openMaxCutJobCommand.Run($"{entryAssemblyDirectory}\\test_files\\F300.mc3");
