@@ -15,8 +15,24 @@ This repo provides examples of how to integrate MaxCut with your workflow using 
 
 ### Importing data via the Command Line
 
-#### Importing KDMax Data File
+#### Importing CSV data file
 
-#### Importing CSV Data File
+#### Importing KDMax data file
 
-#### Importing CabMaster Data File
+#### Importing CabMaster data file
+
+#### Running an optimization on a imported file
+
+### Opening a MaxCut job via the Command Line
+
+#### Running an optimization on a opened job
+
+### License management via the Command Line
+
+#### Activating a license
+
+#### Getting license details
+
+#### Deactivating a license
+
+### Command Line Iterface Help
