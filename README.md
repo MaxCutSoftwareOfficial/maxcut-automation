@@ -19,11 +19,18 @@ This repo provides examples of how to integrate MaxCut with your workflow using 
 
 #### Importing KDMax data file
 
+An example can be found in [ImportKdMaxCommand.cs](examples/ImportKdMaxCommand.cs) and is being leveraged in [Program.cs](examples/Program.cs).
+
 #### Importing CabMaster data file
+
+An example can be found in [ImportCabMasterCommand.cs](examples/ImportCabMasterCommand.cs) and is being leveraged in [Program.cs](examples/Program.cs).
 
 #### Running an optimization on a imported file
 
+
 ### Opening a MaxCut job via the Command Line
+
+An example can be found in [OpenMaxCutJobCommand.cs](examples/OpenMaxCutJobCommand.cs) and is being leveraged in [Program.cs](examples/Program.cs).
 
 #### Running an optimization on a opened job
 
@@ -31,8 +38,10 @@ This repo provides examples of how to integrate MaxCut with your workflow using 
 
 #### Activating a license
 
+An example can be found in [ActivateCommand.cs](examples/ActivateCommand.cs) and is being leveraged in [Program.cs](examples/Program.cs).
+
 #### Getting license details
 
 #### Deactivating a license
 
-### Command Line Iterface Help
+### Command Line Interface Help

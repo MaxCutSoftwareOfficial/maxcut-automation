@@ -1,5 +1,4 @@
-﻿using System.Reflection;
-using examples;
+﻿using examples;
 
 var entryAssemblyDirectory = AppContext.BaseDirectory;
 
