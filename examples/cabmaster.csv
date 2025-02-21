@@ -1,0 +1,18 @@
+"Type","Name","Length","Width","Quantity","JobNumber","CabinetName","CabinetID","Can Rotate (0=No / 1=Yes / 2=Same As Material)","Material","Edgelength1","Edgelength2","EdgeWidth1","EdgeWidth2","Include Edging Thickness","Notes","Note1","Note2","Note3","Note4","Group","Report Tags","Import ID","Parent ID","Library Item Name","Holes Length 1","Holes Length 2","Holes Width 1","Holes Width 2","Grooving Length 1","Grooving Length 2","Grooving Width 1","Grooving Width 2","Material Tag","Edging Length 1 Tag","Edging Length 2 Tag","Edging Width 1 Tag","Edging Width 2 Tag"
+"InputPanel","Back",713.5,867,1,1007,"Floor 2 Door",1,1,"White Example Board",,,,,"FALSE",,,,,,,,,1,,,,,,,,,,,,,,
+"InputPanel","Bottom",867,559,1,1007,"Floor 2 Door",1,1,"White Example Board",,"White Example Edging",,,"FALSE",,,,,,,,,1,,,,,,,,,,,,,,
+"InputPanel","End-L",730,559,1,1007,"Floor 2 Door",1,1,"White Example Board",,"White Example Edging",,,"FALSE",,,,,,,,,1,,,,,,,,,,,,,,
+"InputPanel","End-R",730,559,1,1007,"Floor 2 Door",1,1,"White Example Board","White Example Edging",,,,"FALSE",,,,,,,,,1,,,,,,,,,,,,,,
+"InputPanel","Shelf Adj",865,531.5,1,1007,"Floor 2 Door",1,1,"White Example Board",,"White Example Edging",,,"FALSE",,,,,,,,,1,,,,,,,,,,,,,,
+"InputPanel","Rail",867,79,1,1007,"Floor 2 Door",1,1,"White Example Board",,"White Example Edging",,,"FALSE",,,,,,,,,1,,,,,,,,,,,,,,
+"InputPanel","Kickboard",900,140,1,1007,"Floor 2 Door",1,1,"White Example Board",,,,,"FALSE",,,,,,,,,1,,,,,,,,,,,,,,
+"InputPanel","Back",713.5,867,1,1007,"Floor 2 Door",2,1,"White Example Board",,,,,"FALSE",,,,,,,,,2,,,,,,,,,,,,,,
+"InputPanel","Bottom",867,559,1,1007,"Floor 2 Door",2,1,"White Example Board",,"White Example Edging",,,"FALSE",,,,,,,,,2,,,,,,,,,,,,,,
+"InputPanel","End-L",730,559,1,1007,"Floor 2 Door",2,1,"White Example Board",,"White Example Edging",,,"FALSE",,,,,,,,,2,,,,,,,,,,,,,,
+"InputPanel","End-R",730,559,1,1007,"Floor 2 Door",2,1,"White Example Board","White Example Edging",,,,"FALSE",,,,,,,,,2,,,,,,,,,,,,,,
+"InputPanel","Shelf Adj",865,531.5,1,1007,"Floor 2 Door",2,1,"White Example Board",,"White Example Edging",,,"FALSE",,,,,,,,,2,,,,,,,,,,,,,,
+"InputPanel","Rail",867,79,1,1007,"Floor 2 Door",2,1,"White Example Board",,"White Example Edging",,,"FALSE",,,,,,,,,2,,,,,,,,,,,,,,
+"InputPanel","Kickboard",900,140,1,1007,"Floor 2 Door",2,1,"White Example Board",,,,,"FALSE",,,,,,,,,2,,,,,,,,,,,,,,
+"InputPanel","Kickboard",900,140,1,1007,,,1,"White Example Board",,,,,"FALSE",,,,,,,,,2,,,,,,,,,,,,,,
+"InputPanel","Kickboard",900,140,1,1007,,3,1,"White Example Board",,,,,"FALSE",,,,,,,,,2,,,,,,,,,,,,,,
+"InputPanel","Kickboard",900,140,1,1007,,,1,"White Example Board","White Example Edging","White Example Edging","White Example Edging","White Example Edging","FALSE","five","six","seven","eight","nine","ten","eleven","twelve",2,"thirteen","","fifteen","sixteen","seventeen","eighteen","nineteen","twenty","","","","","twentyfive","twentysix"
