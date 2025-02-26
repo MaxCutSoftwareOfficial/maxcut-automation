@@ -54,4 +54,5 @@ Example: [ActivateCommand.cs](examples/ActivateCommand.cs) is used in [Program.c
 
 ### Deactivating a license
 
-## Command Line Interface Help
+An example can be found in [DeactivateCommand.cs](examples/DeactivateCommand.cs) and is being leveraged in [Program.cs](examples/Program.cs).
+
