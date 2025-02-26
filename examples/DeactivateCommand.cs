@@ -16,15 +16,13 @@ public class DeactivateCommand
 {
     /**
      * <summary>Runs the MaxCut executable to deactivate the license.</summary>
-     *
-     * <param name="licenseCode">The license code to be deactivated.</param>
     */
-    public void Run(string licenseCode)
+    public void Run()
     {
         var startInfo = new ProcessStartInfo
         {
             FileName = @"C:\Program Files (x86)\MaxCut Software\MaxCut\MaxCut.exe",
-            Arguments = $"license --deactivate \"{licenseCode}\"",
+            Arguments = $"license --deactivate",
             RedirectStandardOutput = true,
             UseShellExecute = false,
             CreateNoWindow = true

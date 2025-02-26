@@ -20,4 +20,4 @@ var entryAssemblyDirectory = AppContext.BaseDirectory;
 
 // Example of activating a license code via the MaxCut command line interface.
 var deactivateCommand = new DeactivateCommand();
-deactivateCommand.Run("my-license-code");
+deactivateCommand.Run();
