@@ -4,7 +4,7 @@ namespace examples;
 
 /**
  * <summary>
- * The <c>ActivateCommand</c> class is responsible for executing the MaxCut software command line interface to activate a license.
+ * The <c>LicenseInfoCommand</c> class is responsible for executing the MaxCut software command line interface to get license information.
  * This class uses the <c>System.Diagnostics.Process</c> class to run the MaxCut executable with the appropriate arguments.
  * </summary>
  *
@@ -12,19 +12,17 @@ namespace examples;
  * For more information about MaxCut software, visit <a href="https://www.maxcutsoftware.com">MaxCut Software</a>.
  * </remarks>
  */
-public class ActivateCommand
+public class LicenseInfoCommand
 {
     /**
-     * <summary>Runs the MaxCut executable to activate the license.</summary>
-     *
-     * <param name="licenseCode">The license code to be activated.</param>
+     * <summary>Runs the MaxCut executable to get license information.</summary>
     */
-    public void Run(string licenseCode)
+    public void Run()
     {
         var startInfo = new ProcessStartInfo
         {
             FileName = @"C:\Program Files (x86)\MaxCut Software\MaxCut\MaxCut.exe",
-            Arguments = $"license --activate \"{licenseCode}\"",
+            Arguments = $"license --details",
             RedirectStandardOutput = true,
             UseShellExecute = false,
             CreateNoWindow = true

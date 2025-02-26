@@ -48,11 +48,20 @@ Run the following command in your windows command prompt `cmd.exe`
 ```
 "C:\Program Files (x86)\MaxCut Software\MaxCut\MaxCut.exe" license --activate "license code"
 ```
-Example: [ActivateCommand.cs](examples/ActivateCommand.cs) is used in [Program.cs](examples/Program.cs).
+Example: [LicenseActivateCommand.cs](examples/LicenseActivateCommand.cs) is used in [Program.cs](examples/Program.cs).
 
 ### Getting license details
+Run the following command in your windows command prompt `cmd.exe`
+```
+"C:\Program Files (x86)\MaxCut Software\MaxCut\MaxCut.exe" license --details
+```
+Example: [LicenseInfoCommand.cs](examples/LicenseInfoCommand.cs) is used in [Program.cs](examples/Program.cs).
 
 ### Deactivating a license
+Run the following command in your windows command prompt `cmd.exe`
+```
+"C:\Program Files (x86)\MaxCut Software\MaxCut\MaxCut.exe" license --deactivate
+```
 
-An example can be found in [DeactivateCommand.cs](examples/DeactivateCommand.cs) and is being leveraged in [Program.cs](examples/Program.cs).
+Example: [LicenseDeactivateCommand.cs](examples/LicenseDeactivateCommand.cs) is used in [Program.cs](examples/Program.cs).
 
