@@ -7,7 +7,7 @@ A powerful and easy-to-use cutlist optimizer for cabinetry and woodworking profe
 
 📢 Try MaxCut for free → [https://maxcutsoftware.com](https://maxcutsoftware.com)
 
-## Introduction
+## MaxCut CLI - Introduction
 
 [Download](https://maxcutsoftware.com) and install MaxCut (free)
 
